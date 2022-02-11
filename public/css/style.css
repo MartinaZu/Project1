@@ -1,0 +1,224 @@
+/*NAV SECTION*/
+.navigation {
+    background-color: #fff;
+    width: 95%;
+    margin: auto;
+}
+
+.navbar-light .navbar-toggler {
+    border: 1px solid #0B4619;
+}
+
+#imgLogo {
+    width: 30%;
+}
+
+/*TITLE SECTION*/
+#title {
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: black;
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    width: 95%;
+    position: absolute;
+    top: 150px;
+}
+
+.macarons {
+    width: 100%;   
+}
+
+/*HISTORY AND INGRIDIENTS SECTION*/
+#historyAndIngridients {  
+    background-color: #0B4619;
+    padding: 40px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.cakeRow1 {
+    width: 200px;
+    border-radius: 50px;
+    padding-top: 20px;
+}
+
+.cakeRow1:hover {
+    width: 280px;
+}
+
+h2 {
+    font-family:'Caveat', cursive;  
+    font-size: 3rem;
+    text-decoration-line: underline;
+    padding-top: 10px;
+}
+
+.paragRow1 {
+    margin-bottom: 0;
+}
+
+.firstP {
+    padding-bottom: 10px;
+}
+
+.more {
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.less {
+    display: none;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+#moreAbout {
+    display: none;
+    margin-top: 0;
+}
+
+
+/*OUR CAKES SECTION*/
+#ourCakes {
+    padding: 40px 10px;
+    text-align: center;
+}
+
+.card {
+    margin: auto;
+    border-radius: 8px;
+}
+
+h3 {
+    font-family:'Caveat', cursive;  
+    font-size: 2.5rem;
+}
+
+/*NEWSLETTER*/
+#newsletter {
+    background-color: #0B4619;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+/*SIGNUP FORM*/
+.news {
+    color: #fff;
+    padding-bottom: 8px;
+    width: 100%;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 8px;
+    margin: auto;
+}
+  
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+    
+.form-signin input[type="top"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-signin input[type="middle"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/*FOOTER SECTION*/
+#theFooter {
+    background-color: #0B4619;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.socialMediaIcon {
+    margin: 10px 15px;
+}
+
+#myBtn {
+    display: none;
+    width: 10%;
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none;
+    color:#fff;
+    background-color:#0B4619;  
+    cursor: pointer; 
+    padding: 0px; 
+    border-radius: 20px; 
+    font-size: 30px; 
+}
+
+
+/*ABOUT*/
+/*OUR STORY*/
+#ourStory {
+    margin-top: 100px;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+    color: #0B4619;
+}
+
+.img-ourStory {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.rowAll {
+    padding-bottom: 20px;
+}
+
+.ourStoryPara {
+    color: #0B4619;
+}
+
+/*CONTACT*/
+.contact {
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+fieldset {
+    border: 2px solid black;
+    width: 380px;
+    padding: 5px;
+}
+
+iframe {
+    margin-top: 50px;
+}
+
+/*@media only screen and (min-width:460px) {
+    .navigation {
+        width: 80%;
+
+    }
+}

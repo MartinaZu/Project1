@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My Vegan Bakery</title>
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!--FONT AWSOME-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!--EXTERNAL CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <!--NAV SECTION-->
+    <div class="container">
+    <header>
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top navigation">
+        <div class="container-fluid">
+          <!--LOGO-->
+          <a id="logo" href="index.html"><img id="imgLogo" src="images/logo.png" alt="Logo"/></a>
+          
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" 
+                aria-expanded="false">Shop</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Cakes</a></li>
+                  <li><a class="dropdown-item" href="#">Muffins</a></li>
+                  <li><a class="dropdown-item" href="#">Cookies</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Make your own cake</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Jobs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+<!--TITLE SECTION-->
+    <section id="title">
+        <img class="macarons" src="images/bio.webp" alt="Vegan template.">
+    </section>
+
+<!--HISTORY AND INGRIDIENTS SECTION-->
+    <section id="historyAndIngridients">
+        <div class="row">
+            <div class="col-lg-3">
+                <img class="cakeRow1" src="images/chocolate_cake.jpg" alt="Picture of black forest cake">
+            </div>
+            <div class="col-lg-3">
+                <h2>Our history</h2>
+                <p class="paragRow1 firstP"> Our bakery is run by our family and has been operating at this location 
+                    since 1991. Our recipes come from our grandmother as well as from our younger 
+                    generations. We are a blend of tradition and modern times.</p>
+            </div>
+            <div class="col-lg-3">
+                <img class="cakeRow1 " src="images/raw_avocado_cake.jpg" alt="Photo of raspberry cake">
+            </div>
+            <div class="col-lg-3">
+                <h2>Ingridients</h2>
+                <p class="paragRow1">All our products are vegan and 100% verified.</p>
+                <p id="moreAbout">In case you suffer from certain diseases and you have to pay special attention to 
+                your diet, you do not have to worry about our products. If you want more information about the origin 
+                of food, certificates and permits, feel free to contact us.</p>
+                <button type="button" class="btn btn-outline-light more">Show more</button>
+                <button type="button" class="btn btn-outline-light less">Show less</button>
+            </div>
+        </div>
+    </section>
+
+<!--OUR CAKES SECTION-->
+    <section id="ourCakes">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/black_forest_cake.jpg" class="card-img-top" alt="Picture of Blackforest cake">
+                    <div class="card-body">
+                      <h3>Black Forest Cake</h3>
+                      <p class="card-text">Black Forest gâteau or Black Forest cake is a chocolate sponge 
+                          cake with a rich cherry filling based on the German dessert Schwarzwälder 
+                          Kirschtorte. Typically, Black Forest gateau consists of several layers of chocolate 
+                          sponge cake sandwiched with vegan whipped cream and cherries.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img onmouseover="bigImg(this)" src="images/raspberry_cake.jpg" class="card-img-top" 
+                    alt="Picture of raspberry cake">
+                    <div class="card-body">
+                        <h3>Raspberry Cake</h3>
+                        <p class="card-text">The classic of our childhood: raspberry cake, or as we like to call 
+                        it in German "Himbeerschnitte". Our recipe is made with a fluffy sponge cake base, a 
+                        layer of chilled vegan yogurt and cream, and fresh raspberries on top.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-12 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/cookies.jpg" class="card-img-top" alt="Picture of cookies">
+                    <div class="card-body">
+                        <h3>Chocolate Chip Cookies</h3>
+                        <p class="card-text">Our cookies are made of vegan chocolate chips, vegan margarine, 
+                        and egg substitutes. A chocolate chocolate chip cookie uses a dough flavored with 
+                        chocolate or cocoa powder, before chocolate chips are mixed in. When you prefer 
+                        ‘double’ or ‘triple’ chocolate chip cookies, we do have those as well.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--NEWSLETTER SECTION-->
+<section id="newsletter">
+    <main class="form-signin">
+  <form action="/" method="post">
+    <h3 class="news">Sign Up for our Newsletter!</h3>
+
+    <div class="form-floating">
+        <input type="text" class="form-control top" id="floatingPassword" name="fName" placeholder="First Name">
+        <label for="floatingPassword">First Name</label>
+    </div>
+
+    <div class="form-floating">
+        <input type="text" class="form-control middle" id="floatingPassword" name="lName" placeholder="Last Name">
+        <label for="floatingPassword">Last Name</label>
+    </div>
+
+    <div class="form-floating">
+      <input type="email" class="form-control" id="floatingInput" name="email" placeholder="name@gmail.com">
+      <label for="floatingInput">Email address</label>
+    </div>
+    
+    <button class="w-100 btn btn-lg btn-success" type="submit">Submit here</button>
+  </form>
+</main>
+</section>
+
+<!--FOOTER SECTION-->
+    <footer id="theFooter">
+        <p>&copy 2022 My Vegan Bakery</p>
+        <i class="socialMediaIcon fab fa-facebook-square"></i>
+        <i class="socialMediaIcon fab fa-instagram"></i>
+        <i class="socialMediaIcon far fa-envelope"></i>
+    </footer>   
+</div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-circle-up"></i></button>
+
+
+
+<!--JQUERY-->
+<script src="https://code.jquery.com/jquery-3.6.0.js" 
+integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" 
+crossorigin="anonymous"></script>
+<!--JAVASCRIPT-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+crossorigin="anonymous"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
