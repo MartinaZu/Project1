@@ -3,7 +3,7 @@ My Vegan Bakery
 
 ## Description
 
-This is my first Project where I want to learn and practice more about HTML, CSS, JS and Bootstrap.
+This is my first Project where I practice what I learn HTML, CSS, JS and Bootstrap.
 
 ## Getting Started
 
